@@ -1,0 +1,37 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+
+## Sistemas Operacionais ##
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+*.lnk
+*~
+.DS_Store
+._*
+
+## Dependências ##
+**/node_modules/
+*/node_modules/
+node_modules/
+
+## Npm ##
+npm-debug.log*
+.npm
+
+## Yarn ##
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+.yarnclean
+
+## Sass ##
+.sass-cache/
+
+.history
+
+*.map
+*.orig
+*.meta
